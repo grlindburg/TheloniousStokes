@@ -1,0 +1,66 @@
+body {
+    background:url('bgh.jpg') no-repeat top;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.benches {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+#bench1 {
+    z-index: 7;
+}
+
+#bench2 {
+    z-index: 5;
+}
+
+#bench3 {
+    z-index: 3;
+}
+
+#bench4 {
+    z-index: 1;
+}
+
+.faces {
+    display: block;
+}
+
+#face1 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -40%;
+    z-index: 6;
+}
+
+h1 {
+    color: white;
+    background: black;
+    font-family: "Arial Black";
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    width: 500px;
+    margin: 0 auto;
+    display: none;
+}
+
+#face2 {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    bottom: -40%;
+    z-index: 4;
+}
